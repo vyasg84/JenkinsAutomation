@@ -24,6 +24,11 @@ pipeline {
             steps {
                 echo 'Deploying Stage'
          }
+        }   
+        stage('Monitor') {
+            steps {
+                echo 'Monitoring Stage'
+         }
         }    
     }
 }
